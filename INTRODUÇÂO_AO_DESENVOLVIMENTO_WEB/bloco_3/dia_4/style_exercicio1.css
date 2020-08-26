@@ -1,0 +1,142 @@
+body, html {
+    font-size: 20pt;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ece7e6;
+}
+img {
+    width: 300px;
+}
+header {
+    background-image: url(49609183641_14f162cb85_b.jpg);
+    background-size: cover;
+    background-position: 50% 35%;
+    position: relative;
+    top: -40px;
+    height: 950px;
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 750px;
+    font-size: 45pt;
+    padding-left: 45px;
+    text-shadow: black;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    top: 720px;
+    padding-left: 45px;
+}
+.a-initial {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 55px;
+}
+.nav1 {
+    display: inline-block
+
+}
+.nav2 {
+    display: inline-block
+}
+.nav3 {
+    display: inline-block
+}
+
+.first-article {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+}
+.second-article {
+    float: right;
+    font-size: 11pt;
+    text-align: center;
+    margin-left: 25px;
+    border-left: black dashed 1px;
+    padding: 25px;
+}
+.third-article {
+    background-image: url(49967881121_1faae73275_b.jpg);
+    background-size: cover;
+    background-position: 50% 16%;
+    margin-left: 25px;
+    width:1400px;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+}
+.box-third-article {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 35px;
+}
+
+.fourth-article {
+    background-image: url(peacock-mantis-shrimp--odontodactylus-scyllarus--eyes-843437902-5c28bf35c9e77c00010c886a.jpg);
+    background-size: cover;
+    background-position: 50% 16%;
+    margin-left: 25px;
+    width:1400px;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+
+}
+.box-fourth-article {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 35px;
+}
+
+
+.fifth-article {
+    background-image: url(uw-2010-06-11.jpg);
+    background-size: cover;
+    background-position: 50% 16%;
+    margin-left: 25px;
+    width:1400px;
+    margin-bottom: 200px;
+    background-attachment: fixed;
+}
+.box-fifth-article {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 35px;
+}
+aside {
+    float: right;
+    width: 330px;
+    text-align: center;
+    margin-right: 21px;
+    border-left: black dashed 1px;
+    position: relative;
+    top: -400px;
+    font-weight: bold;
+}
+aside a {
+    color: black;
+    text-decoration: none;
+}
+.bibliografia {
+    float: right;
+    width: 330px;
+    text-align: center;
+    margin-right: 21px;
+    border-left: black dashed 1px;
+    position: relative;
+    top: -200px;
+    left: 352px;
+    font-weight: bold;
+}
+.bibliografia a {
+    color: black;
+    
+}
+footer{
+    text-align: center;
+}
