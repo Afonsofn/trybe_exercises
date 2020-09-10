@@ -1,17 +1,18 @@
-let porcetagem = 100
-
-if (porcetagem > 100) {
-    console.log("ERRO")
-} else if (porcetagem >= 90) {
-    console.log("A")
-} else if (porcetagem >= 80) {
-    console.log("B")
-} else if (porcetagem >= 70) {
-    console.log("C")
-} else if (porcetagem >= 60) {
-    console.log("D")
-} else if (porcetagem >= 50) {
-    console.log("E")
-} else if (porcetagem < 50) {
-    console.log("F")
+function numero(porcentagem) {
+    if (porcentagem > 100) {
+        console.log("ERRO")
+    } else if (porcentagem >= 90) {
+        console.log("A")
+    } else if (porcentagem >= 80) {
+        console.log("B")
+    } else if (porcentagem >= 70) {
+        console.log("C")
+    } else if (porcentagem >= 60) {
+        console.log("D")
+    } else if (porcentagem >= 50) {
+        console.log("E")
+    } else if (porcentagem < 50) {
+        console.log("F")
+    }
 }
+numero(90)
