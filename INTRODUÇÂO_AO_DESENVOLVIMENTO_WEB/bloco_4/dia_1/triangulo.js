@@ -1,9 +1,8 @@
-let angulo1 = 60
-let angulo2 = 60
-let angulo3 = 60
-
-if (angulo1+angulo2+angulo3 == 180) {
-    return console.log("É um triangulo")
-} else {
-    return console.log("ERRO")
+function angulos(angulo1, angulo2, angulo3) {
+    if (angulo1+angulo2+angulo3 == 180) {
+        return "É um triangulo"
+    } else {
+        return "ERRO"
+    }
 }
+console.log(angulos(60, 60, 60))
