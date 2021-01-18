@@ -2,8 +2,8 @@
 ## Dia 1
 ### [x] meu-primeiro-app
 Conceitos iniciais de um projeto React, como os imports, exports, sintaxe de declaração de componentes de classe.
-### [x] exercice-tasks
-Conceitos iniciais como a declaração de funções simples, manipulação de arrays atravez de HOFs e renderização dinâmica dentro de "p".
+### [x] exercice-react-tasks
+Conceitos iniciais como a declaração de funções simples, conceitos iniciais de JSX, manipulação de arrays atravez de HOFs e renderização dinâmica dentro de "p".
 ## Dia 2
 ### [x] fixation-exercices-11-2
 A partir esse exercício começam a aparecer as props, mostra como são passadas e recuperadas entre componentes.
