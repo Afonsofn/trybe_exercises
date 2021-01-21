@@ -1,11 +1,11 @@
 # Info sobre o bloco 12
 ## Dia 1
 ### [x] fixation-exercice-fancy-buttons
-Somos apresentado a conceitos mais avançados como Constructor, State, This.
-A função super() dentro do Contructor
-O bind() - sua sintaxe e pra que ele serve
-O State - sua sintaxe e pra serve
-O This - sua sintaxe e pra serve.
+Somos apresentado a conceitos mais avançados como Constructor, State, This. <br />
+A função super() dentro do Contructor <br />
+O bind() - sua sintaxe e pra que ele serve <br />
+O State - sua sintaxe e pra serve <br />
+O This - sua sintaxe e pra serve. <br />
 ### [x] exercise-pokedex-state
 Desenvolve mais profundamente o conceito de State, setState, passagem de states do pai para o filho, state com callback pegando o state do passado.. (Ainda tenho algumas coisas para ajustar)
 ## Dia 2
