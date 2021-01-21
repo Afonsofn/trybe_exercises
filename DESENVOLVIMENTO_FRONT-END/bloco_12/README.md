@@ -1,6 +1,7 @@
 # Info sobre o bloco 12
 ## Dia 1
 ### [x] fixation-exercice-fancy-buttons
+Três botões diferentes, onde, ao serem clicados mudam o número dentro deles de acordo com a quantidade de cliques, quando ficam com um número par o background do botão fica verde. <br />
 Somos apresentado a conceitos mais avançados como Constructor, State, This. <br />
 A função super() dentro do Contructor <br />
 O bind() - sua sintaxe e pra que ele serve <br />
