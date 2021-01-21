@@ -10,4 +10,4 @@ A partir esse exercício começam a aparecer as props, mostra como são passadas
 ### [x] fixation-exercices2-11-2
 Conceitos mais avançados como passar props de forma dinâmica dentro de elementos HTML atravez de HOFs, mostra também desestruturações básicas de prosps que usaremos com frequência.
 ### [x] exercice-my-pokedex
-Nesse exercicio vemos o conceito de Proptypes e as sintaxes que sempre usaremos, também vemos passagem dinâmica de props e desestruturação.
+Nesse exercicio vemos o conceito de Proptypes e as sintaxes que usaremos, também vemos passagem dinâmica de props e mais desestruturação.
