@@ -27,7 +27,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1> Orders recently created </h1>
-         {products.map(courrentProduct => <Order order={courrentProduct} />)}
+         {products.map(courrentProduct => <Order order={courrentProduct} key={courrentProduct.id} />)} {/* Aqui estamos passando como props os produtos dinamicamente atravez do map */}
       </div>
     );
   }

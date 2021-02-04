@@ -30,6 +30,7 @@ class Form extends Component {
     const { target } = event /* event.target */
     const { name } = target  /* event.target.name */  /* event.target.value mostra o que está sendo escrito no textArea */
     const value = target.type === "checkbox" ? target.checked : target.value  /* Aqui eu to fazendo uma condição que, se que chamar essa função tiver o tipo checkbox eu retorno uma coisa, se nao tiver eu retono outra */
+    console.log(target)
     this.setState({
       [name]: value  /* Quando eu quiser que o nome da chave do objeto seja dinamico eu passo esse "[]" pra ele entender que é uma variavel. */
     });
