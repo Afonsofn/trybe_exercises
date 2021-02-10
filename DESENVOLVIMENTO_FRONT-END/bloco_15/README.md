@@ -9,5 +9,10 @@ Criando uma serie de testes para um todo list.
 ### [x] exercise-tic-tac-toe
 Criando uma serie de testes para um jogo da velha.
 ## Dia 2
-### [x] 
-### [x] 
+### [x] fixation-exercicie-test
+Iniciamos as testagens com mocks, testando funçoes "fetch" com o objeto "global"...
+### [x] fixation-exercicie-test-2
+Aqui vemos um pouco mais sobre testes de formulários e inputs.
+## Dia 3
+### [x] fixation-exercice-test
+Aqui vemos como fazer testagem com as rotas.
