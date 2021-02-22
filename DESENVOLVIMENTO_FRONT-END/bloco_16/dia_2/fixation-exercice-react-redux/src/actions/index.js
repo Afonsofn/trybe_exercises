@@ -1,2 +1,0 @@
-export const addAssignment = (value) => ({ type: 'ADD_ELEMENT', value });  // isso é a simplificação disso () => { return {} }
-                                                                           // msm coisa disso () => ({ ... })
