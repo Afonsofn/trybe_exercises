@@ -139,7 +139,7 @@ class Form extends React.Component {
                   maxLength="1000"
                   required
                   value={this.state.resume}
-                  onChange={this.changeHandler}
+                  onChange={this.handleChange}
                 />
               </div>
               <div className="container">
@@ -150,7 +150,7 @@ class Form extends React.Component {
                   maxLength="40"
                   required
                   value={this.state.role}
-                  onChange={this.changeHandler}
+                  onChange={this.handleChange}
                   onMouseEnter={() => {
                     alert('Preencha com cuidado esta informação.');
                   }}
@@ -162,7 +162,7 @@ class Form extends React.Component {
                   name="roleDescription"
                   maxLength="500"
                   value={this.state.roleDescription}
-                  onChange={this.changeHandler}
+                  onChange={this.handleChange}
                 />
               </div>
             </fieldset>
