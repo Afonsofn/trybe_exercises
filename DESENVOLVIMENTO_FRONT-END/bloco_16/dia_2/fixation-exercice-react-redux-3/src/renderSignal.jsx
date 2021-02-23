@@ -16,3 +16,5 @@ const renderSignal = (signalColor) => {
 };
 
 export default renderSignal;
+
+// Função pra mudar as cores do semáforo.

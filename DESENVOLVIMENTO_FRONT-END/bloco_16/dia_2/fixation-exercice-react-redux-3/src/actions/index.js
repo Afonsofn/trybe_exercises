@@ -1,6 +1,6 @@
-export default function selectColor(color) {
+export default function selectColor(cor) { // Essa é a sintaxe padrão da action.
   return {
     type: "SELECT_COLOR",
-    color: color,
+    color: cor,
   };
 }
