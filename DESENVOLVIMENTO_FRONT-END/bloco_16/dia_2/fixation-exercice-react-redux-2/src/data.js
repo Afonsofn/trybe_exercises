@@ -25,3 +25,5 @@ const categories = [
 ];
   
 export default categories;
+
+// Arquivo com os dados que usaremos na aplicação.
