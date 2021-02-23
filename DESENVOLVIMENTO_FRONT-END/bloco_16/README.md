@@ -15,4 +15,8 @@ Nesse exercício implementamos um protótipo de Netflix, onde, clicando nos tít
 Nesse exercício implementamos um sinal de trânsito, com tres botões que mudam sua cor, utilizando o Redux passamos as informações entre os componentes.
 
 ## Dia 3
-### [x]
+### [x] fixation-exercice-react-redux
+Nesse exercício fizemos a refatoração de uma atividade do bloco 12, um formulário, onde fizemos ele se comunicar através do Redux.
+### [] fixation-exercice-react-redux-2
+
+### [] fixation-exercice-react-redux-3
