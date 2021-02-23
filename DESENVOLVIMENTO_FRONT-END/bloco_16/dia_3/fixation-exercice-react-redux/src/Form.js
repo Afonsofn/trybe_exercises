@@ -1,6 +1,6 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import addRegister from './actions/index';
+import { connect } from 'react-redux'; // Importamos o conect par conectar o React com o Redux.
+import addRegister from './actions/index'; // Importamos a action para fazermos os dispatchs.
 
 class Form extends React.Component {
   constructor(props) {
@@ -8,7 +8,7 @@ class Form extends React.Component {
 
     this.handleChange = this.handleChange.bind(this)
 
-    this.state = {
+    this.state = {  // Setamos um state local para depois mandarmos o todas as informações referente a esse form de uam vez só.
       nome: '',
       email: '',
       cpf: '',
@@ -22,7 +22,7 @@ class Form extends React.Component {
     }
   }
 
-  handleChange(event) {
+  handleChange(event) { // Uma função com a lógica de subir os dados dos inputs para o state.
     let { name, value } = event.target
 
     if (name === "nome") value = value.toUpperCase()
@@ -33,8 +33,8 @@ class Form extends React.Component {
     })
   }
 
-  validateRegister = () => {
-    const { 
+  validateRegister = () => {  // pq esse modo de function funcionou e esse nao => validateRegister() {}
+    const { // Aqui temos a função que recupera os dados do state local.
       nome,
       email,
       cpf,
@@ -47,7 +47,7 @@ class Form extends React.Component {
       hasEntered,
      } = this.state;
 
-    this.props.addRegister({ 
+    this.props.addRegister({  // Depois fazemos um dispatch com esses dados para a store através do addRegister que setamos no mapDispatchToProps.
       nome,
       email,
       cpf,
@@ -60,7 +60,7 @@ class Form extends React.Component {
       hasEntered,
      });
      
-    this.setState({
+    this.setState({ // E por fim limpamos o state para um novo Form.
       nome: '',
       email: '',
       cpf: '',
@@ -211,17 +211,21 @@ class Form extends React.Component {
                 />
               </div>
             </fieldset>
-            <button onClick={this.validateRegister}>Registrar</button>
+            <button onClick={this.validateRegister}>Registrar</button> {/* Adcionamos um button para enviar os dados do state local pra a store atravś do dispatch */}
       </div>
     )
 
   }
 }
 
-const mapDispatchToProps = dispatch => ({
-  addRegister: e => dispatch(addRegister(e))});
+const mapDispatchToProps = dispatch => ({ // O mapDispatchToProps disponibiliza as actions para usarmos no componente através de props.
+  addRegister: (formulario) => dispatch( // Setamos a key para chamarmos através das props.
+    addRegister(formulario) // E colocamos a action para ser usada através da key pelas props.
+  )
+});
 
-const mapStateToProps = state => ({
-  userLogin: state.loginReducer});
+const mapStateToProps = state => ({ // O mapStateToProps pega os dados do store e disponibiliza através de props pra usarmos no componente.
+  userLogin: state.loginReducer // Aqui setamos a key da prop que queremos chamar e dizemos oq vai ter naquela key.
+});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Form);
+export default connect(mapStateToProps, mapDispatchToProps)(Form); // Passamos o connect no export para unirmos o store ao componente.
