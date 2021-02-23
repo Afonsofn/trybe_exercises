@@ -17,6 +17,6 @@ Nesse exercício implementamos um sinal de trânsito, com tres botões que mudam
 ## Dia 3
 ### [x] fixation-exercice-react-redux
 Nesse exercício fizemos a refatoração de uma atividade do bloco 12, um formulário, onde fizemos ele se comunicar através do Redux.
-### [] fixation-exercice-react-redux-2
-
+### [x] fixation-exercice-react-redux-2
+Uma versão resumida de um shopping cart onde passamos todas as infos da lista de produtos para o cart através de Redux.
 ### [] fixation-exercice-react-redux-3
