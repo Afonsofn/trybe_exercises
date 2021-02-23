@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .signal {
   width: 300px;
 }
