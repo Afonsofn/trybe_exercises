@@ -23,3 +23,6 @@ Uma versão resumida de um shopping cart onde passamos todas as infos da lista d
 Nesse exercício fizemos um site com quatro páginas diferentes, Home, Login, SignUp, Clients, onde usamos o Router para percorrer entre elas e o Redux para compartilhar informações de forma mais efetiva.
 
 ## Dia 4
+### [x] fixation-exercice-react-redux
+Nesse exercício começamos a ver o redux sendo usado com requisições assincronas atravez do Thunk, fizemos uma página onde tem um botão que quando clicado chama uma api que mostra uma foto de um cachorrinho, fizemos tbm um modelo de loading passando keys com as actions para os reducers.
+### [x] fixation-exercice-react-redux-2
