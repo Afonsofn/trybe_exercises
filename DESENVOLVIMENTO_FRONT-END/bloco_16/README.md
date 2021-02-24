@@ -7,8 +7,6 @@ Configuração da Store<br>
 Criação de Actions<br>
 Porém em um primeiro momento fora do ambiente do React para entendermos melhor.
 ## Dia 2
-### [] fixation-exercice-react-redux
-Nesse exercício implementamos um protótipo de Todo list, onde passamos os dados apenas com o Redux.
 ### [x] fixation-exercice-react-redux-2
 Nesse exercício implementamos um protótipo de Netflix, onde, clicando nos títulos renderizamos os trailers ao lado.
 ### [x] fixation-exercice-react-redux-3
