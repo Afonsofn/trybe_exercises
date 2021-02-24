@@ -28,3 +28,4 @@ Nesse exercício começamos a ver o redux sendo usado com requisições assincro
 ### [x] fixation-exercice-react-redux-2
 Fizemos um rastreador para a Estação espacial ISS, com as requisições assíncronas no redux através do Thunk fizemos toda a aplicação, fizemos uso de bibliotecas externas também para o mapa e o marcador.
 ### [x] fixation-exercice-react-redux-3
+Nesse exercício fizemos uma requisição a uma api de fotos de gatos, usamos o Thunk.
