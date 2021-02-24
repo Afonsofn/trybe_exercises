@@ -26,3 +26,5 @@ Nesse exercício fizemos um site com quatro páginas diferentes, Home, Login, Si
 ### [x] fixation-exercice-react-redux
 Nesse exercício começamos a ver o redux sendo usado com requisições assincronas atravez do Thunk, fizemos uma página onde tem um botão que quando clicado chama uma api que mostra uma foto de um cachorrinho, fizemos tbm um modelo de loading passando keys com as actions para os reducers.
 ### [x] fixation-exercice-react-redux-2
+Fizemos um rastreador para a Estação espacial ISS, com as requisições assíncronas no redux através do Thunk fizemos toda a aplicação, fizemos uso de bibliotecas externas também para o mapa e o marcador.
+### [x] fixation-exercice-react-redux-3
