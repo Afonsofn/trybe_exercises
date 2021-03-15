@@ -13,7 +13,8 @@ Nesse exercício fizemos uma cópia simplificada do slido, um app de perguntas, 
 Nesse ecercício fizemos uma refatoração de um ecercício anterior, onde temos um sinal de trânsito e botões que ao clicarmos muda a cor do sinal, refatoramos usando o Context e os hooks.
 ## Dia 3
 ### [x] fixation-exercice-react-hooks
+Nesse exercício fizemos um chamada para uma api que retorna info sobre pokemons, fizemos um hook customizado que retornava o poderes específicos de cada pokemon clicado.
+### [x] fixation-exercice-react-hooks-2
 
-### [x] fixation-exercice-react-hooks-
-
-### [x] fixation-exercice-react-hooks-
+### [x] iss-location-hooks
+Refatoração do exercício da Iss location, dessa vez utilizamos os hooks como os componentsDid... fizemos também um hook customizado com um timer onde se passava uma determinada função para ser executada em um determinado tempo, e utilizamos também o context..
